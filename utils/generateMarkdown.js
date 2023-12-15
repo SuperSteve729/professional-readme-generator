@@ -37,14 +37,31 @@ ${renderLicenseBadge(data.license)}
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Tests](#tests)
 - [Credits](#credits)
 ${renderLicenseLink(data.license)}
+- [Questions](#questions)
 
 ## Description
 ${data.description}
 
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## Tests
+${data.tests}
+
+## Credits
+${data.credits}
+
 ${renderLicenseSection(data.license)}
 
+## Questions
+If you have any questions you can check my github page [${data.username}](https://github.com/${data.username}),
+Or feel free to send an email to ${data.email}
 `;
 }
 
